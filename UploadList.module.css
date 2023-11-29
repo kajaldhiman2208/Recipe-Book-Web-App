@@ -1,0 +1,66 @@
+
+/* .bodyvid{
+    height:300px;
+    width:300px;
+    
+} */
+/* .innerbody{
+    text-align:center;
+    
+    margin-bottom:50px;
+    width:400px;
+    background-color:red;
+    margin-left:0px;
+} */
+/* video{
+    margin-left: 45%;
+}
+.body{
+    height:auto;
+
+    
+}
+.bodyname{
+    font-size:16px;
+    
+} */
+.innerbody{
+    height:370px;
+    width:350px;
+    background-color:#0A0A0A;
+    margin:30px;
+    border-radius: 10px;
+   
+    transition: 0.5s ease-in-out;
+    color:white;
+}
+.innerbody:hover{
+    height:380px;
+    width:360px;
+    transition: 0.5s ease-in-out;
+}
+.body{
+    display:flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+.like{
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    color:white;
+    background-color:#66666E;
+    border:none;
+}
+.unlike{
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    color:white;
+    background-color:#66666E;
+    border:none;
+}
+video{
+    border-radius: 20px;
+}
+

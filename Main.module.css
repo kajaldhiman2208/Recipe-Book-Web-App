@@ -1,0 +1,135 @@
+.App {
+    text-align: center;
+    /* background-image:linear-gradient(rgb(0,0,0,0.3)),url(); */
+    height:100vh;
+    background-image:linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://wallpapercave.com/wp/wp9059520.jpg");
+  
+    width:100vw;
+    background-size:cover;
+  }
+  
+  header{
+    height:150px;
+    width:100vw;
+    background-color:transparent;
+    
+  }
+  header ul{
+    display: flex;
+    list-style-type: none;
+    
+  }
+  header ul li{
+    margin-left:90px;
+    margin-top:50px;
+    color:white;
+  
+  }
+  .logo{
+    margin-left:10%;
+  }
+  .signin{
+    margin-left:30%;
+   
+  }
+  .button{
+    height:40px;
+    width:130px;
+    background-color:transparent;
+    color:#f6c915;
+    border-radius:20px;
+    text-align:center;
+    border:none;
+    font-size:18px;
+    transition: 1.5s ease-in-out;
+  }
+  .button:hover{
+    background-color:white;
+  
+    transition: 1.5s ease-in-out;
+  }
+  .input{
+    margin-left:95%;
+   height:40px;
+    width:20vw;
+    background-color:white;
+    border: 3px solid #f6c915;
+    border-radius:30px;
+    text-align:center;
+  
+  }
+  .mainhead{
+    color:white;
+    font-size:50px;
+    margin-top:90px;
+  }
+  .sechead{
+    font-size:35px;
+  }
+.sideone{
+    height:auto;
+    width:100vw;
+    background-color:#000000;
+   
+    align-items: center;
+    text-align: center;
+
+}
+.third{
+  height:470px;
+  width:100vw;
+  background-color:#0A0A0A;
+  display: flex;
+  flex-wrap: wrap;
+  color:white;
+}
+.thirdone{
+  height:450px;
+  width:24%;
+  background-color:black;
+  margin-left:10px;
+  margin-top:10px;
+}
+.imageone{
+  height:400px;
+  width:75%;
+  background-image: url("https://www.theteenmagazine.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBLzFHQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--25b25dad3f558dc092a7f3d4bf4d75ef4e18bade/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RW5KbGMybDZaVjkwYjE5bWFYUmJCMmtDTUFJdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--2dfb7ddf11048b4502d7d5dad131a825b7a9f9e4/Screen%20Shot%202023-05-26%20at%204.49.26%20PM.png");
+  background-size: cover;
+  margin-left: 15%;
+  margin-top: 25px;
+}
+.readmore{
+  height:50px;
+  width:150px;
+  background-color:#f6c915;
+  color:white;
+  font-size: large;
+  border-radius: 10px;
+  border: none;
+  transform: translate(65px,-30px);
+  position:absolute;
+}
+.imagetwo{
+  height:400px;
+  width:75%;
+  background-image: url("https://www.theteenmagazine.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMGxGQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--90528bf5b2f4a00e2fcbfbcf8e638fda528d3fe6/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RW5KbGMybDZaVjkwYjE5bWFYUmJCMmtDTUFJdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--2dfb7ddf11048b4502d7d5dad131a825b7a9f9e4/Screen%20Shot%202023-05-21%20at%2012.47.31%20PM.png");
+  background-size: cover;
+  margin-left: 15%;
+  margin-top: 25px;
+}
+.imagethree{
+  height:400px;
+  width:75%;
+  background-image: url("https://www.theteenmagazine.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMFJGQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--2b1a6af9704d0ab624b47eace917af78fa7e0a37/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RW5KbGMybDZaVjkwYjE5bWFYUmJCMmtDTUFJdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--ccc8d2dd01e46c1ac2520450f0ff6ce8129ddfd9/amirali-mirhashemian-R02KgL5Ti3Y-unsplash.jpg");
+  background-size: cover;
+  margin-left: 15%;
+  margin-top: 25px;
+}
+.imagefour{
+  height:400px;
+  width:75%;
+  background-image: url("https://www.theteenmagazine.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd2xGQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6e6858e0ac7cf6344411380d60a30d8f92b46e37/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RW5KbGMybDZaVjkwYjE5bWFYUmJCMmtDTUFJdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--2dfb7ddf11048b4502d7d5dad131a825b7a9f9e4/Screen%20Shot%202023-05-21%20at%2010.03.49%20AM.png");
+  background-size: cover;
+  margin-left: 15%;
+  margin-top: 25px;
+}

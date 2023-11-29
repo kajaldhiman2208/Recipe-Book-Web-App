@@ -1,0 +1,77 @@
+.main{
+    height:100vh;
+    width:100vw;
+    background-color: black;
+    color:white;
+    text-align: center;
+    align-items:center;
+}
+.head{
+    position:absolute;
+    transform:translate(30%,30%);
+    font-size: 30px;
+}
+.header{
+    height:150px;
+    width:100vw;
+    background-color:black;
+    
+  }
+  .header ul{
+    display: flex;
+    list-style-type: none;
+    
+  }
+  .header ul li{
+    margin-left:90px;
+    margin-top:50px;
+    color:white;
+  
+  }
+  .logo{
+    margin-left:10%;
+  }
+  .signin{
+    margin-left:30%;
+   
+  }
+  .button{
+    height:40px;
+    width:130px;
+    background-color:transparent;
+    color:#f6c915;
+    border-radius:20px;
+    text-align:center;
+    border:none;
+    font-size:18px;
+    transition: 1.5s ease-in-out;
+  }
+  .button:hover{
+    background-color:white;
+  
+    transition: 1.5s ease-in-out;
+  }
+  .input{
+    margin-left:95%;
+   height:40px;
+    width:20vw;
+    background-color:white;
+    border: 3px solid #f6c915;
+    border-radius:30px;
+    text-align:center;
+  
+  }
+  .image{
+    height:500px;
+    width:500px;
+    background-image:url("https://www.theteenmagazine.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMGxGQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--90528bf5b2f4a00e2fcbfbcf8e638fda528d3fe6/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RW5KbGMybDZaVjkwYjE5bWFYUmJCMmtDTUFJdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--2dfb7ddf11048b4502d7d5dad131a825b7a9f9e4/Screen%20Shot%202023-05-21%20at%2012.47.31%20PM.png");
+    transform:translate(200%,30%);
+    position: absolute;
+    
+}
+.detail{
+    height:400px;
+    width:600px;
+    transform:translate(50%,90%);
+    position: absolute;
+}
